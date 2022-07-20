@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Oleo Script', cursive;
+    cursor: pointer;
+}
+
+
+.navbar-menu a{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px 20px; 
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar-menu a:hover{
+    background: none;
+    border: 1px solid white;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.descricao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 0 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.descricao h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.descricao h1{
+    font-size: 35px;
+    font-family: 'Kurale', serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 5ps;
+    line-height: 70px;
+}
+.descricao p{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.descricao button{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.descricao button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
